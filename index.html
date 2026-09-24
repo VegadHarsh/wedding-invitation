@@ -16,10 +16,10 @@
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="x-dns-prefetch-control" content="on">
   <link rel="dns-prefetch" href="https://ws.tildacdn.com">
-  <link rel="dns-prefetch" href="https://static.tildacdn.net"> 
+  <link rel="dns-prefetch" href="https://static.tildacdn.net">
   <!-- favicons -->
   <!-- favicons -->
-<!-- <link rel="icon" type="image/png" sizes="32x32"
+  <!-- <link rel="icon" type="image/png" sizes="32x32"
   href="">
 
 <link rel="icon" type="image/png" sizes="192x192"
@@ -27,8 +27,8 @@
 
 <link rel="apple-touch-icon" type="image/png"
   href="https://static.tildacdn.net/tild3761-3535-4439-b530-303639633934/apple-touch-icon_1.png"> -->
-<!-- /favicons -->
-    <!-- /favicons -->
+  <!-- /favicons -->
+  <!-- /favicons -->
   <!-- Assets -->
   <script type="text/javascript" async="" id="tildastatscript"
     src="https://static.tildacdn.net/js/tilda-stat-1.0.min.js"></script>
@@ -81,10 +81,10 @@
   <script type="text/javascript" src="https://static.tildacdn.net/js/tilda-variant-select-1.0.min.js"></script>
   <style>
     /* #weiOverlay,
-#weiVideoWrap {
-  display: none !important;
-}
- */
+    #weiVideoWrap {
+      display: none !important;
+    } */
+
 
 
     .t396 .t-animate[data-animate-style="fadein"],
@@ -1249,266 +1249,263 @@
                 fill: white;
               }
             </style> <audio id="weiAudio" loop="">
-              <source src="./Contents/Jashn E Bahaaraa Instrumental Flute Jodhaa Akbar 128 Kbps.mp3"
-                type="audio/mp3">
+              <source src="./Contents/Jashn E Bahaaraa Instrumental Flute Jodhaa Akbar 128 Kbps.mp3" type="audio/mp3">
             </audio>
-            <div id="weiOverlay"> <img id="weiImg"
-                src="./Contents/ChatGPT Image Sep 23, 2026, 01_09_36 PM.png"
+            <div id="weiOverlay"> <img id="weiImg" src="./Contents/ChatGPT Image Sep 23, 2026, 01_09_36 PM.png"
                 alt="Open your invitation" draggable="false">
               <div id="weiTapWrap">
                 <div class="wei-chevron"></div>
                 <div id="weiTapLabel">Tap to open</div>
               </div>
             </div>
-            <div id="weiVideoWrap"> <video id="weiVideo"
-                src="./Contents/Envelope_K_and_K_PROPER_FINAL.mp4"
-                muted="" playsinline="" preload="auto" data-fading="1"></video> </div>
-            <div id="weiAudioBtn"> <svg id="weiIconPause"
-                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="display:block">
+            <div id="weiVideoWrap"> <video id="weiVideo" src="./Contents/Envelope_K_and_K_PROPER_FINAL.mp4" muted=""
+                playsinline="" preload="auto" data-fading="1"></video> </div>
+            <div id="weiAudioBtn"> <svg id="weiIconPause" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                style="display:block">
                 <rect x="6" y="5" width="4" height="14" rx="1"></rect>
                 <rect x="14" y="5" width="4" height="14" rx="1"></rect>
               </svg> <svg id="weiIconPlay" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="display:none">
                 <polygon points="5,3 19,12 5,21"></polygon>
               </svg> </div>
             <script src="https://pub-4dc8201144ca418fb604349c73e8c724.r2.dev/engine.min%20(1).js"></script>
-<script>
-(function () {
-  function initWeddingOpening() {
-    var overlay = document.getElementById("weiOverlay");
-    var videoWrap = document.getElementById("weiVideoWrap");
-    var video = document.getElementById("weiVideo");
-    var audio = document.getElementById("weiAudio");
-    var audioBtn = document.getElementById("weiAudioBtn");
-    var pauseIcon = document.getElementById("weiIconPause");
-    var playIcon = document.getElementById("weiIconPlay");
-    if (!overlay || !videoWrap || !video) return;
+            <script>
+              (function () {
+                function initWeddingOpening() {
+                  var overlay = document.getElementById("weiOverlay");
+                  var videoWrap = document.getElementById("weiVideoWrap");
+                  var video = document.getElementById("weiVideo");
+                  var audio = document.getElementById("weiAudio");
+                  var audioBtn = document.getElementById("weiAudioBtn");
+                  var pauseIcon = document.getElementById("weiIconPause");
+                  var playIcon = document.getElementById("weiIconPlay");
+                  if (!overlay || !videoWrap || !video) return;
 
-    var opened = false;
+                  var opened = false;
 
-    overlay.style.display = "flex";
-    overlay.style.opacity = "1";
-    overlay.style.pointerEvents = "all";
-    videoWrap.style.display = "none";
-    videoWrap.classList.remove("wei-video-in", "wei-video-out");
-    if (audioBtn) {
-      audioBtn.style.visibility = "hidden";
-      audioBtn.style.opacity = "0";
-    }
+                  overlay.style.display = "flex";
+                  overlay.style.opacity = "1";
+                  overlay.style.pointerEvents = "all";
+                  videoWrap.style.display = "none";
+                  videoWrap.classList.remove("wei-video-in", "wei-video-out");
+                  if (audioBtn) {
+                    audioBtn.style.visibility = "hidden";
+                    audioBtn.style.opacity = "0";
+                  }
 
-    function openInvitation() {
-      if (opened) return;
-      opened = true;
+                  function openInvitation() {
+                    if (opened) return;
+                    opened = true;
 
-      /* Hide the cover immediately. Do not wait for the fade, otherwise the card underneath can flash. */
-      overlay.style.display = "none";
-      overlay.style.opacity = "0";
-      overlay.style.pointerEvents = "none";
+                    /* Hide the cover immediately. Do not wait for the fade, otherwise the card underneath can flash. */
+                    overlay.style.display = "none";
+                    overlay.style.opacity = "0";
+                    overlay.style.pointerEvents = "none";
 
-      /* Put the opening video on top immediately. */
-      videoWrap.style.display = "flex";
-      videoWrap.classList.remove("wei-video-out");
-      videoWrap.classList.add("wei-video-in");
-      video.currentTime = 0;
-      var playPromise = video.play();
-      if (playPromise && playPromise.catch) playPromise.catch(function () {});
+                    /* Put the opening video on top immediately. */
+                    videoWrap.style.display = "flex";
+                    videoWrap.classList.remove("wei-video-out");
+                    videoWrap.classList.add("wei-video-in");
+                    video.currentTime = 0;
+                    var playPromise = video.play();
+                    if (playPromise && playPromise.catch) playPromise.catch(function () { });
 
-      if (audio) {
-        var audioPromise = audio.play();
-        if (audioPromise && audioPromise.catch) audioPromise.catch(function () {});
-      }
-    }
+                    if (audio) {
+                      var audioPromise = audio.play();
+                      if (audioPromise && audioPromise.catch) audioPromise.catch(function () { });
+                    }
+                  }
 
-    (function () {
-  function initWeddingOpening() {
-    var overlay = document.getElementById("weiOverlay");
-    var videoWrap = document.getElementById("weiVideoWrap");
-    var video = document.getElementById("weiVideo");
-    var audio = document.getElementById("weiAudio");
-    var audioBtn = document.getElementById("weiAudioBtn");
+                  (function () {
+                    function initWeddingOpening() {
+                      var overlay = document.getElementById("weiOverlay");
+                      var videoWrap = document.getElementById("weiVideoWrap");
+                      var video = document.getElementById("weiVideo");
+                      var audio = document.getElementById("weiAudio");
+                      var audioBtn = document.getElementById("weiAudioBtn");
 
-    if (!overlay || !videoWrap || !video) return;
+                      if (!overlay || !videoWrap || !video) return;
 
-    var opened = false;
-    var videoActive = false;
+                      var opened = false;
+                      var videoActive = false;
 
-    overlay.style.display = "flex";
-    overlay.style.opacity = "1";
-    overlay.style.pointerEvents = "all";
+                      overlay.style.display = "flex";
+                      overlay.style.opacity = "1";
+                      overlay.style.pointerEvents = "all";
 
-    videoWrap.style.display = "none";
+                      videoWrap.style.display = "none";
 
-    function openInvitation(e) {
-      if (opened) return;
+                      function openInvitation(e) {
+                        if (opened) return;
 
-      /* Allow THIS click to open the video */
-      if (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        e.stopImmediatePropagation();
-      }
+                        /* Allow THIS click to open the video */
+                        if (e) {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          e.stopImmediatePropagation();
+                        }
 
-      opened = true;
-      videoActive = true;
+                        opened = true;
+                        videoActive = true;
 
-      overlay.style.display = "none";
-      overlay.style.opacity = "0";
-      overlay.style.pointerEvents = "none";
+                        overlay.style.display = "none";
+                        overlay.style.opacity = "0";
+                        overlay.style.pointerEvents = "none";
 
-      videoWrap.style.display = "flex";
-      videoWrap.classList.remove("wei-video-out");
-      videoWrap.classList.add("wei-video-in");
+                        videoWrap.style.display = "flex";
+                        videoWrap.classList.remove("wei-video-out");
+                        videoWrap.classList.add("wei-video-in");
 
-      video.currentTime = 0;
+                        video.currentTime = 0;
 
-      var playPromise = video.play();
-      if (playPromise && playPromise.catch) {
-        playPromise.catch(function () {});
-      }
+                        var playPromise = video.play();
+                        if (playPromise && playPromise.catch) {
+                          playPromise.catch(function () { });
+                        }
 
-      if (audio) {
-        var audioPromise = audio.play();
-        if (audioPromise && audioPromise.catch) {
-          audioPromise.catch(function () {});
-        }
-      }
-    }
+                        if (audio) {
+                          var audioPromise = audio.play();
+                          if (audioPromise && audioPromise.catch) {
+                            audioPromise.catch(function () { });
+                          }
+                        }
+                      }
 
-    /* FIRST CLICK ON COVER = OPEN */
-    overlay.addEventListener("click", openInvitation, true);
-    overlay.addEventListener("touchend", openInvitation, true);
+                      /* FIRST CLICK ON COVER = OPEN */
+                      overlay.addEventListener("click", openInvitation, true);
+                      overlay.addEventListener("touchend", openInvitation, true);
 
-    /* AFTER VIDEO STARTS = BLOCK ALL CLICKS */
-    document.addEventListener("click", function (e) {
-      if (!videoActive) return;
+                      /* AFTER VIDEO STARTS = BLOCK ALL CLICKS */
+                      document.addEventListener("click", function (e) {
+                        if (!videoActive) return;
 
-      e.preventDefault();
-      e.stopPropagation();
-      e.stopImmediatePropagation();
-    }, true);
+                        e.preventDefault();
+                        e.stopPropagation();
+                        e.stopImmediatePropagation();
+                      }, true);
 
-    document.addEventListener("touchstart", function (e) {
-      if (!videoActive) return;
+                      document.addEventListener("touchstart", function (e) {
+                        if (!videoActive) return;
 
-      e.preventDefault();
-      e.stopPropagation();
-      e.stopImmediatePropagation();
-    }, true);
+                        e.preventDefault();
+                        e.stopPropagation();
+                        e.stopImmediatePropagation();
+                      }, true);
 
-    document.addEventListener("touchend", function (e) {
-      if (!videoActive) return;
+                      document.addEventListener("touchend", function (e) {
+                        if (!videoActive) return;
 
-      e.preventDefault();
-      e.stopPropagation();
-      e.stopImmediatePropagation();
-    }, true);
+                        e.preventDefault();
+                        e.stopPropagation();
+                        e.stopImmediatePropagation();
+                      }, true);
 
-    document.addEventListener("pointerdown", function (e) {
-      if (!videoActive) return;
+                      document.addEventListener("pointerdown", function (e) {
+                        if (!videoActive) return;
 
-      e.preventDefault();
-      e.stopPropagation();
-      e.stopImmediatePropagation();
-    }, true);
+                        e.preventDefault();
+                        e.stopPropagation();
+                        e.stopImmediatePropagation();
+                      }, true);
 
-    /* VIDEO FINISHED */
-    video.addEventListener("ended", function () {
-      videoActive = false;
+                      /* VIDEO FINISHED */
+                      video.addEventListener("ended", function () {
+                        videoActive = false;
 
-      videoWrap.classList.remove("wei-video-in");
-      videoWrap.classList.add("wei-video-out");
+                        videoWrap.classList.remove("wei-video-in");
+                        videoWrap.classList.add("wei-video-out");
 
-      setTimeout(function () {
-        videoWrap.style.display = "none";
+                        setTimeout(function () {
+                          videoWrap.style.display = "none";
 
-        if (audioBtn) {
-          audioBtn.style.visibility = "visible";
-          audioBtn.style.opacity = "1";
-        }
-      }, 1400);
-    });
-  }
+                          if (audioBtn) {
+                            audioBtn.style.visibility = "visible";
+                            audioBtn.style.opacity = "1";
+                          }
+                        }, 1400);
+                      });
+                    }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initWeddingOpening);
-  } else {
-    initWeddingOpening();
-  }
-})();
+                    if (document.readyState === "loading") {
+                      document.addEventListener("DOMContentLoaded", initWeddingOpening);
+                    } else {
+                      initWeddingOpening();
+                    }
+                  })();
 
-    overlay.addEventListener("click", openInvitation, false);
-    overlay.addEventListener("touchend", openInvitation, false);
+                  overlay.addEventListener("click", openInvitation, false);
+                  overlay.addEventListener("touchend", openInvitation, false);
 
-    video.addEventListener("ended", function () {
-      videoWrap.classList.remove("wei-video-in");
-      videoWrap.classList.add("wei-video-out");
-      setTimeout(function () {
-        videoWrap.style.display = "none";
-        if (audioBtn) {
-          audioBtn.style.visibility = "visible";
-          audioBtn.style.opacity = "1";
-        }
-      }, 1400);
-    });
+                  video.addEventListener("ended", function () {
+                    videoWrap.classList.remove("wei-video-in");
+                    videoWrap.classList.add("wei-video-out");
+                    setTimeout(function () {
+                      videoWrap.style.display = "none";
+                      if (audioBtn) {
+                        audioBtn.style.visibility = "visible";
+                        audioBtn.style.opacity = "1";
+                      }
+                    }, 1400);
+                  });
 
-    if (audioBtn && audio) {
-      /* Use capture phase so the external engine cannot immediately restart the song. */
-      document.addEventListener("click", function (e) {
-        var btn = e.target.closest ? e.target.closest("#weiAudioBtn") : null;
-        if (!btn) return;
-        e.preventDefault();
-        e.stopPropagation();
-        e.stopImmediatePropagation();
+                  if (audioBtn && audio) {
+                    /* Use capture phase so the external engine cannot immediately restart the song. */
+                    document.addEventListener("click", function (e) {
+                      var btn = e.target.closest ? e.target.closest("#weiAudioBtn") : null;
+                      if (!btn) return;
+                      e.preventDefault();
+                      e.stopPropagation();
+                      e.stopImmediatePropagation();
 
-        if (audio.paused) {
-          var playPromise = audio.play();
-          if (playPromise && playPromise.catch) playPromise.catch(function () {});
-          if (pauseIcon) pauseIcon.style.display = "block";
-          if (playIcon) playIcon.style.display = "none";
-        } else {
-          audio.pause();
-          if (pauseIcon) pauseIcon.style.display = "none";
-          if (playIcon) playIcon.style.display = "block";
-        }
-      }, true);
+                      if (audio.paused) {
+                        var playPromise = audio.play();
+                        if (playPromise && playPromise.catch) playPromise.catch(function () { });
+                        if (pauseIcon) pauseIcon.style.display = "block";
+                        if (playIcon) playIcon.style.display = "none";
+                      } else {
+                        audio.pause();
+                        if (pauseIcon) pauseIcon.style.display = "none";
+                        if (playIcon) playIcon.style.display = "block";
+                      }
+                    }, true);
 
-      document.addEventListener("touchend", function (e) {
-        var btn = e.target.closest ? e.target.closest("#weiAudioBtn") : null;
-        if (!btn) return;
-        e.preventDefault();
-        e.stopPropagation();
-        e.stopImmediatePropagation();
+                    document.addEventListener("touchend", function (e) {
+                      var btn = e.target.closest ? e.target.closest("#weiAudioBtn") : null;
+                      if (!btn) return;
+                      e.preventDefault();
+                      e.stopPropagation();
+                      e.stopImmediatePropagation();
 
-        if (audio.paused) {
-          var playPromise = audio.play();
-          if (playPromise && playPromise.catch) playPromise.catch(function () {});
-          if (pauseIcon) pauseIcon.style.display = "block";
-          if (playIcon) playIcon.style.display = "none";
-        } else {
-          audio.pause();
-          if (pauseIcon) pauseIcon.style.display = "none";
-          if (playIcon) playIcon.style.display = "block";
-        }
-      }, true);
+                      if (audio.paused) {
+                        var playPromise = audio.play();
+                        if (playPromise && playPromise.catch) playPromise.catch(function () { });
+                        if (pauseIcon) pauseIcon.style.display = "block";
+                        if (playIcon) playIcon.style.display = "none";
+                      } else {
+                        audio.pause();
+                        if (pauseIcon) pauseIcon.style.display = "none";
+                        if (playIcon) playIcon.style.display = "block";
+                      }
+                    }, true);
 
-      audio.addEventListener("play", function () {
-        if (pauseIcon) pauseIcon.style.display = "block";
-        if (playIcon) playIcon.style.display = "none";
-      });
+                    audio.addEventListener("play", function () {
+                      if (pauseIcon) pauseIcon.style.display = "block";
+                      if (playIcon) playIcon.style.display = "none";
+                    });
 
-      audio.addEventListener("pause", function () {
-        if (pauseIcon) pauseIcon.style.display = "none";
-        if (playIcon) playIcon.style.display = "block";
-      });
-    }
-  }
+                    audio.addEventListener("pause", function () {
+                      if (pauseIcon) pauseIcon.style.display = "none";
+                      if (playIcon) playIcon.style.display = "block";
+                    });
+                  }
+                }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initWeddingOpening);
-  } else {
-    initWeddingOpening();
-  }
-})();
-</script>
+                if (document.readyState === "loading") {
+                  document.addEventListener("DOMContentLoaded", initWeddingOpening);
+                } else {
+                  initWeddingOpening();
+                }
+              })();
+            </script>
             <!-- nominify end -->
           </div>
         </div>
@@ -2199,7 +2196,7 @@
                     type="video/mp4">
                   Your browser does not support the video tag.
                 </video> </div>
-              
+
             </div>
           </div>
           <div class="t396__elem tn-elem tn-elem__26846321031783269760242" data-elem-id="1783269760242"
@@ -2323,7 +2320,8 @@
             style="left: 631.5px; top: 160px; width: 260px;">
             <div class="tn-atom"> <img class="tn-atom__img t-img loaded"
                 data-original="./Contents/ChatGPT Image Sep 23, 2026, 10_41_23 PM.png"
-                src="./Contents/ChatGPT Image Sep 23, 2026, 10_41_23 PM.png" alt="" imgfield="tn_img_1785746425236"> </div>
+                src="./Contents/ChatGPT Image Sep 23, 2026, 10_41_23 PM.png" alt="" imgfield="tn_img_1785746425236">
+            </div>
           </div>
           <div class="t396__elem tn-elem tn-elem__26846321031785746843632" data-elem-id="1785746843632"
             data-elem-type="image" data-field-top-value="-403" data-field-left-value="-54" data-field-height-value="169"
@@ -2337,10 +2335,9 @@
             data-field-height-res-960-value="200"
             data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits"
             style="left: 106.5px; top: -403px; width: 200px;">
-            <div class="tn-atom"> <img class="tn-atom__img t-img loaded"
-                data-original="https://static.tildacdn.net/tild3131-3766-4837-b133-633131306561/Screenshot_2026-08-0.png"
-                src="https://optim.tildacdn.net/tild3131-3766-4837-b133-633131306561/-/resize/400x/-/format/webp/Screenshot_2026-08-0.png.webp"
-                alt="" imgfield="tn_img_1785746843632"> </div>
+            <div class="tn-atom"> <img class="tn-atom__img t-img loaded" data-original=""
+                src="./Contents/ChatGPT Image Sep 23, 2026, 10_41_23 PM.png" alt="" imgfield="tn_img_1785746843632">
+            </div>
           </div>
         </div>
       </div>
@@ -2815,6 +2812,48 @@
                   animation: tdrFlash 1.5s ease forwards;
                 }
 
+                #tdr-numcvs-day,
+                #tdr-numcvs-month,
+                #tdr-numcvs-year {
+                  visibility: hidden !important;
+                }
+
+                #tdr-tile-day .tdr-tile-bg,
+                #tdr-tile-month .tdr-tile-bg,
+                #tdr-tile-year .tdr-tile-bg {
+                  position: relative !important;
+                }
+
+                #tdr-tile-day .tdr-tile-bg::after,
+                #tdr-tile-month .tdr-tile-bg::after,
+                #tdr-tile-year .tdr-tile-bg::after {
+                  position: absolute;
+                  inset: 0;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  color: #7d6332;
+                  font-family: Rufina, Georgia, serif;
+                  font-weight: 400;
+                  line-height: 1;
+                  pointer-events: none;
+                }
+
+                #tdr-tile-day .tdr-tile-bg::after {
+                  content: "14";
+                  font-size: 42px;
+                }
+
+                #tdr-tile-month .tdr-tile-bg::after {
+                  content: "DEC";
+                  font-size: 36px;
+                }
+
+                #tdr-tile-year .tdr-tile-bg::after {
+                  content: "2026";
+                  font-size: 32px;
+                }
+
                 @keyframes tdrFlash {
                   0% {
                     opacity: 0;
@@ -2868,11 +2907,19 @@
               <script>
                 (function () {
                   function drawFixedDate() {
-                    var values = [
-                      ['tdr-numcvs-day', '14', 55],
-                      ['tdr-numcvs-month', 'DEC', 48],
-                      ['tdr-numcvs-year', '2026', 43]
-                    ];
+                    var mobile = window.innerWidth <= 639;
+
+                    var values = mobile
+                      ? [
+                        ['tdr-numcvs-day', '14', 36],
+                        ['tdr-numcvs-month', 'DEC', 30],
+                        ['tdr-numcvs-year', '2026', 27]
+                      ]
+                      : [
+                        ['tdr-numcvs-day', '14', 55],
+                        ['tdr-numcvs-month', 'DEC', 48],
+                        ['tdr-numcvs-year', '2026', 43]
+                      ];
 
                     values.forEach(function (item) {
                       var canvas = document.getElementById(item[0]);
@@ -2881,34 +2928,44 @@
                       var ctx = canvas.getContext('2d');
                       if (!ctx) return;
 
-                      var w = canvas.width;
-                      var h = canvas.height;
-
-                      ctx.clearRect(0, 0, w, h);
-                      ctx.save();
+                      ctx.clearRect(0, 0, canvas.width, canvas.height);
 
                       ctx.fillStyle = '#7d6332';
                       ctx.textAlign = 'center';
                       ctx.textBaseline = 'middle';
                       ctx.font = '400 ' + item[2] + 'px Rufina, Georgia, serif';
 
-                      ctx.fillText(item[1], w / 2.5, h / 2.5);
-
-                      ctx.restore();
+                      ctx.fillText(
+                        item[1],
+                        canvas.width / 2,
+                        canvas.height / 2
+                      );
                     });
                   }
 
-                  function startFixedDate() {
+                  function start() {
                     drawFixedDate();
                     setInterval(drawFixedDate, 100);
                   }
 
                   if (document.readyState === 'loading') {
-                    document.addEventListener('DOMContentLoaded', startFixedDate);
+                    document.addEventListener('DOMContentLoaded', start);
                   } else {
-                    startFixedDate();
+                    start();
                   }
                 })();
+
+                function startFixedDate() {
+                  drawFixedDate();
+                  setInterval(drawFixedDate, 100);
+                }
+
+                if (document.readyState === 'loading') {
+                  document.addEventListener('DOMContentLoaded', startFixedDate);
+                } else {
+                  startFixedDate();
+                }
+                }) ();
               </script>
             </div>
           </div>
@@ -4405,7 +4462,8 @@
             style="top: 683px; left: 640.5px; width: 239px; height: 105px;">
             <div class="tn-atom__sbs-anim-wrapper" id="sbs-2684632503-1782990616505000011"
               style="display: inherit; width: inherit; height: inherit; opacity: 1; transform: scale(1);">
-              <div class="tn-atom" field="tn_text_1782990616505000011" style="--lh-px: 20px; line-height: 20px;">Join us for a morning of love, laughter, and <br>unforgettable memories as<br> we begin our forever.</div>
+              <div class="tn-atom" field="tn_text_1782990616505000011" style="--lh-px: 20px; line-height: 20px;">Join us
+                for a morning of love, laughter, and <br>unforgettable memories as<br> we begin our forever.</div>
             </div>
           </div>
           <div class="t396__elem tn-elem tn-elem__26846325031782990453976000005" data-elem-id="1782990453976000005"
@@ -4455,7 +4513,8 @@
             style="top: 403px; left: 715.5px; width: auto; height: auto;">
             <div class="tn-atom__sbs-anim-wrapper" id="sbs-2684632503-1782990435802000004"
               style="display: inherit; width: inherit; height: inherit; opacity: 1; transform: scale(1);">
-              <div class="tn-atom" field="tn_text_1782990435802000004" style="--lh-px: 16px; line-height: 16px;">DAUGHTER OF
+              <div class="tn-atom" field="tn_text_1782990435802000004" style="--lh-px: 16px; line-height: 16px;">
+                DAUGHTER OF
               </div>
             </div>
           </div>
@@ -8155,7 +8214,8 @@
                 style="left: 0px; top: 0px; width: 150px;">
                 <div class="tn-atom"> <img class="tn-atom__img t-img"
                     data-original="./Contents/ChatGPT Image Sep 20, 2026, 06_27_40 PM.png"
-                    src="./Contents/ChatGPT Image Sep 20, 2026, 06_27_40 PM.png" alt="" imgfield="tn_img_1784904632645"> </div>
+                    src="./Contents/ChatGPT Image Sep 20, 2026, 06_27_40 PM.png" alt="" imgfield="tn_img_1784904632645">
+                </div>
               </div>
             </div>
           </div>
@@ -9320,14 +9380,14 @@
 
         /* New code 24/09/2026*/
         .tn-elem__26846325031782990570479000008 {
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-}
+          left: 50% !important;
+          transform: translateX(-50%) !important;
+        }
 
-.tn-elem__26846325031782990570479000008 .tn-atom__sbs-anim-wrapper {
-  width: 100% !important;
-  justify-content: center !important;
-}
+        .tn-elem__26846325031782990570479000008 .tn-atom__sbs-anim-wrapper {
+          width: 100% !important;
+          justify-content: center !important;
+        }
 
         @media screen and (max-width:1199px) {
           #rec2684632903 .tn-elem[data-elem-id="1785747277552"] {
@@ -9456,23 +9516,23 @@
             style="left: 628.5px; top: 67px; width: 261px;">
             <div class="tn-atom"> <img class="tn-atom__img t-img"
                 data-original="./Contents/ChatGPT Image Sep 20, 2026, 08_05_19 PM.png"
-                src="./Contents/ChatGPT Image Sep 20, 2026, 08_05_19 PM.png"
-                alt="" imgfield="tn_img_1785747277552"> </div>
+                src="./Contents/ChatGPT Image Sep 20, 2026, 08_05_19 PM.png" alt="" imgfield="tn_img_1785747277552">
+            </div>
           </div>
         </div>
       </div>
       <script>t_onReady(function () {t_onFuncLoad('t396_init', function () {t396_init('2684632903');});})
 
-      
+
       </script>
-       <!-- /T396 -->
+      <!-- /T396 -->
     </div>
     <div id="rec2684633003" class="r t-rec t-rec_pt_15"
       style="padding-top: 15px; background-color: rgb(253, 244, 235); --zoom: 1;" data-animationappear="off"
       data-record-type="396" data-bg-color="#fdf4eb">
-       <!-- T396 -->
+      <!-- T396 -->
 
-      <style> 
+      <style>
         #rec2684633003 .t396__artboard {
           height: 400px;
           background-color: #fdf4eb;
@@ -9809,8 +9869,11 @@
             style="width: 341px; left: 591px; top: 30.5px; height: 341px;">
             <div class="tn-atom tn-atom__html">
               <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58741.67968575669!2d72.56466414863281!3d23.0474439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e86c027c1d809%3A0x8d7e027d14a42c55!2sShree%20Sorathiya%20Prajapati%20Vikas%20Mandal!5e0!3m2!1sen!2sus!4v1789916099250!5m2!1sen!2sus" width="335" height="335" style="border:0; border-radius:15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                  </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58741.67968575669!2d72.56466414863281!3d23.0474439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e86c027c1d809%3A0x8d7e027d14a42c55!2sShree%20Sorathiya%20Prajapati%20Vikas%20Mandal!5e0!3m2!1sen!2sus!4v1789916099250!5m2!1sen!2sus"
+                  width="335" height="335" style="border:0; border-radius:15px;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
             </div>
           </div>
           <div class="t396__elem tn-elem tn-elem__26846330031784906143231000003" data-elem-id="1784906143231000003"
@@ -13106,7 +13169,8 @@
             style="top: 133px; left: 609.5px; width: 303px; height: auto;">
             <div class="tn-atom__sbs-anim-wrapper" id="sbs-2684633403-1784905898051000001"
               style="display: inherit; width: inherit; height: inherit; opacity: 1; transform: scale(1);">
-              <div class="tn-atom" field="tn_text_1784905898051000001" style="--lh-px: 24px; line-height: 24px;">To prepare for a joyful celebration, kindly confirm your attendance by 14 dec 2026</div>
+              <div class="tn-atom" field="tn_text_1784905898051000001" style="--lh-px: 24px; line-height: 24px;">To
+                prepare for a joyful celebration, kindly confirm your attendance by 14 dec 2026</div>
             </div>
           </div>
           <div class="t396__elem tn-elem tn-elem__26846334031688561179508" data-elem-id="1688561179508"
@@ -13118,7 +13182,8 @@
             data-field-left-res-640-value="39" data-field-left-res-960-value="199"
             data-fields="top,left,width,height,container,axisx,axisy,widthunits,leftunits,topunits"
             style="top: 15px; left: 480.5px; width: 560px; height: auto;">
-            <div class="tn-atom" field="tn_text_1688561179508" style="--lh-px: 62px; line-height: 62px;">Come Celebrate With Us</div>
+            <div class="tn-atom" field="tn_text_1688561179508" style="--lh-px: 62px; line-height: 62px;">Come Celebrate
+              With Us</div>
           </div>
           <div class="t396__elem tn-elem tn-elem__26846334031785088266594000001" data-elem-id="1785088266594000001"
             data-elem-type="image" data-field-top-value="77" data-field-left-value="526" data-field-height-value="28"
@@ -13821,7 +13886,8 @@
             data-observer-ready="true"
             style="top: 163px; left: 609.5px; width: 303px; height: auto; transition-delay: 0.5s; transition-duration: 2s;">
             <div class="tn-atom" field="tn_text_1785086112235000002" style="--lh-px: 29px; line-height: 29px;"><a
-                style="color: rgb(166, 133, 71); box-shadow: none; text-decoration: none; border-bottom-style: solid; border-bottom-color: rgb(166, 133, 71);">Harsh Vegad</a></div>
+                style="color: rgb(166, 133, 71); box-shadow: none; text-decoration: none; border-bottom-style: solid; border-bottom-color: rgb(166, 133, 71);">Harsh
+                Vegad</a></div>
           </div>
           <div class="t396__elem tn-elem tn-elem__26846335031785086272369 t-animate t-animate_wait"
             data-elem-id="1785086272369" data-elem-type="vector" data-field-top-value="186" data-field-left-value="520"
